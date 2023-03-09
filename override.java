@@ -9,7 +9,7 @@ System.out.println("not overridden");
 class Second extends First
 {
 public void show(){
-System.out.println("overridden");
+System.out.println(" i am overridden");
 //super.show();//you have to use this when you want to call base class method also.if not you can remove this statement.
 }
 }
