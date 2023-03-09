@@ -1,0 +1,17 @@
+class Casio{
+public void add(inti,intj)
+{
+System.out.println(i+j);
+}
+public void add(inti,intj,intk)
+{
+System.out.println(i+j+k);
+}
+public class MethodOverloading{
+public static void main(String args[])
+{
+Casio cas=new Casio();
+cas.add(4,5);
+cas.add(4,5,6);
+}
+}
